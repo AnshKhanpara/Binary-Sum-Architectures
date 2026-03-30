@@ -45,10 +45,10 @@ Another Parallel Prefix Adder, the Brent-Kung architecture focuses on balancing 
 
 | Adder Type | Gate Count (Approx) | Critical Path Delay | Area (Relative) | Complexity |
 | :--- | :---: | :---: | :---: | :--- |
-| **RCA** | Low | High ($O(n)$) | 1x | Very Low |
-| **CLA** | Medium-High | Low ($O(1)$) | ~1.5x | Medium |
-| **KSA** | Very High | Lowest ($O(\log n)$) | ~2.5x | Very High |
-| **BKA** | High | Low ($O(\log n)$) | ~1.8x | High |
+| **RCA** | Low | High (O(n)) | 1x | Very Low |
+| **CLA** | Medium-High | Low (O(1)) | ~1.5x | Medium |
+| **KSA** | Very High | Lowest (O(\log n)) | ~2.5x | Very High |
+| **BKA** | High | Low (O(\log n)) | ~1.8x | High |
 
 ### Applications
 - **RCA**: Low-speed, low-power applications (e.g., wristwatches, simple ALU cycles).
